@@ -1,0 +1,26 @@
+.dish-card {
+    margin: auto;
+    margin-top: 2%;
+}
+.new-cont > div {
+    border: 0.25px solid #d3d3d3;
+    width: 80%;
+    padding: 2% 5%;
+    margin: 2% auto;
+    display: flex;
+    gap: 1%;
+}
+.new-cont>div:hover {
+    box-shadow: 0px 10px 10px 10px rgba(0, 0, 100, 0.3);
+}
+.new-cont img {
+    margin-top: 10%;
+    max-width: 300px;
+    height: 300px;
+}
+.new-cont table {
+    text-align: left;
+}
+.new-cont > div > div:nth-child(2){
+    margin-left: 3%;
+}
